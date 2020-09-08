@@ -12,11 +12,6 @@ class FlatList extends Component {
                     selected={flat.lat === this.props.selectedFlat.lat}
                     index={index}
                     selectFlat={this.props.selectFlat}
-                    // key={flat.name}
-                    // name={this.props.name} 
-                    // imageUrl={this.props.imageUrl} 
-                    // price={this.props.price}
-                    // priceCurrency={this.props.priceCurrency}
                 />
             );
         });
